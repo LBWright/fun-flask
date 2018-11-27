@@ -66,7 +66,7 @@ class FlaskTestCase(unittest.TestCase):
           follow_redirects=True
         )
         response = tester.get('/')
-        self.assertTrue(b'Posts' in response.data)
+        self.assertTrue(b'First post' in response.data)
 
 if __name__ == '__main__':
     unittest.main()

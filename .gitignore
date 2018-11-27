@@ -115,3 +115,6 @@ dmypy.json
 .pyre/
 
 .DS_Store
+*.db
+*.sqlite3
+*.sqlite
